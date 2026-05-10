@@ -5,7 +5,7 @@ A Neovim plugin for Rust development. Build, run, lint and format Rust projects 
 ## Install with silzy.nvim
 
 ```lua
-use { "SilpofGames/rust-dev.nvim",
+use { "SilpofGames/rust-dev",
   config = function()
     require("rust-dev").setup()
   end,
